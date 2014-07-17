@@ -1,4 +1,4 @@
 jakubriedl.github.io
 ====================
 
-Personal website
+Personal website based on Halcyon Days theme
