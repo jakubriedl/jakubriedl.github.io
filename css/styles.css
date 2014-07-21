@@ -327,3 +327,7 @@ Waypoints
 Customizations
 ========================================================================== */
 p.line-double { line-height: 50px;}
+#portfolioSlider h2 small {
+    display: block;
+    margin: 10px 0 -15px;
+}
