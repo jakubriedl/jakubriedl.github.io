@@ -111,9 +111,12 @@ $(window).load(function() {
 		animation: "slide",
 		directionNav: false,
 		controlNav: true,
-		touch: false,
+		touch: true,
 		pauseOnHover: true,
-		start: function() {
+        slideshowSpeed: 7000,
+        startAt: 0,
+        initDelay: 5000,
+        start: function() {
 			$.waypoints('refresh');
 		}
 	});
