@@ -107,7 +107,7 @@ $(document).ready(function(){
 
 $(window).load(function() {
 
-	$('#portfolioSlider').flexslider({
+	$('#articlesSlider').flexslider({
 		animation: "slide",
 		directionNav: false,
 		controlNav: true,
@@ -121,24 +121,16 @@ $(window).load(function() {
 		}
 	});
 
-	$('#servicesSlider').flexslider({
+	$('#portfolioSlider').flexslider({
 		animation: "slide",
 		directionNav: false,
 		controlNav: true,
 		touch: true,
 		pauseOnHover: true,
-		start: function() {
-			$.waypoints('refresh');
-		}
-	});
-
-	$('#teamSlider').flexslider({
-		animation: "slide",
-		directionNav: false,
-		controlNav: true,
-		touch: true,
-		pauseOnHover: true,
-		start: function() {
+        slideshowSpeed: 7000,
+        startAt: 0,
+        initDelay: 5000,
+        start: function() {
 			$.waypoints('refresh');
 		}
 	});
